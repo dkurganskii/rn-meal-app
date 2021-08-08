@@ -1,17 +1,26 @@
-> Why do I have a folder named ".expo" in my project?
+# Meals Recipe Application
+This project was created to practice Navigation and State management concepts of building a React Native application with Expo.
+## Concepts covered-
+* Grid Styling
+* Adding React Navigation v4
+* Creating Stack Navigator- navigating between Screens (push, pop or replace screens)
+* Configuring Header with NavigationOptions (dynamic and static) and default NavigationOptions
+* Passing and Reading data using navigation params
+* Working with Tabs-based navigation
+* Working with Side Drawer-based navigation
+* useEffect() and useCallback()
+* Redux and store setup
+* Dispatching actions and reducer logic
+* Selecting State slices
+* Debuggin Redux
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
 
-> What does the "packager-info.json" file contain?
+#
 
-The "packager-info.json" file contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
+[React Native](https://github.com/facebook/react-native)
 
-> What does the "settings.json" file contain?
+[React Navigation V4](https://reactnavigation.org/docs/4.x/getting-started/)
 
-The "settings.json" file contains the server configuration that is used to serve the application manifest.
+[Redux](https://github.com/reduxjs/redux)
 
-> Should I commit the ".expo" folder?
-
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+Made With [expo](https://github.com/expo/expo)
